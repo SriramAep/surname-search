@@ -1,0 +1,36 @@
+.sub-card {
+  columns: 1;
+  column-gap: 0.5rem;
+  padding: 0.5rem;
+}
+
+h2 {
+    padding: 0rem 0.5rem;
+    margin: 1rem 0rem;
+}
+
+/* Tablets (≥640px): 2 columns */
+@media (min-width: 640px) {
+  .sub-card {
+    columns: 2;
+  }
+}
+
+/* Desktops (≥1024px): 3 columns */
+@media (min-width: 1024px) {
+  .sub-card {
+    columns: 3;
+  }
+}
+
+/* Large desktops (≥1280px): 4 columns */
+@media (min-width: 1280px) {
+  .sub-card {
+    columns: 4;
+  }
+}
+
+.sub-card > * {
+  break-inside: avoid;
+  margin-bottom: 1rem;
+}
