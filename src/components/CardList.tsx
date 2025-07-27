@@ -1,4 +1,4 @@
-import jsonData from '../surnameData.json';
+import jsonData from '../assets/surnameData.json';
 import Card from './Card';
 import './CardList.css';
 
