@@ -7,6 +7,9 @@ type popProps = {
 
 function Pop({name, poplist}: popProps) {
 
+    // TODO: Add a pop up that lists all the elements of this list
+    console.log(poplist);
+
     return (
         <div>
             <p className='popname'>{name}</p>
